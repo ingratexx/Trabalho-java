@@ -1,17 +1,18 @@
+@import url("https://fonts.cdnfonts.com/css/gabarito");
 body {
-  background-image: url(img/background.png);
+  background-image: url(img/background.jpg);
   background-size: cover;
+  font-family: "Gabarito", sans-serif;
 }
 
-
-.logo{
-    width: 200px;
-    position: absolute;
-    right: 40%;
+.logo {
+  width: 200px;
+  right: 45%;
+  margin-top: -2rem;
 }
 
-h1{
-    font-size: 50px; 
+h1 {
+  font-size: 50px;
 }
 
 .login {
@@ -24,32 +25,36 @@ h1{
   transform: translate(-50%, -50%);
   padding: 40px;
   border-radius: 50px;
+  justify-content: center;
 }
 
-.form {
+form {
   display: flex;
   flex-direction: column;
-  gap: 6px;
   align-items: center;
+  gap: 8px;
   position: relative;
-  left: 4rem;
 }
 
 input {
   display: block;
-  width: 90%;
+  width: 70%;
   padding: 10px;
   font-size: 16px;
   border: hidden;
-  border-bottom: 2px solid #92B0C8;
+  border-bottom: 2px solid #92b0c8;
   outline: none;
   background-color: transparent;
   margin-bottom: 2rem;
 }
 
-.submit {
-  background-color: #92B0C8;
-  border-radius: 10px;
+.enviar {
+  margin-top: 8px;
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #92b0c8;
+  border-color: transparent;
 }
 
 label {
